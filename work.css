@@ -1,0 +1,9 @@
+.title{
+    color: blueviolet;
+}
+.hello{
+    font-size: 29px;
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+    font-weight:600;
+}
