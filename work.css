@@ -1,5 +1,5 @@
 body {
-background-image: url(assets/flower.jpg);
+background-color: blanchedalmond;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -17,6 +17,55 @@ background-size: cover;
 }
 .media{
     text-decoration: underline;
-    text-decoration: content ;
+    text-decoration: overline ;
     text-decoration-color: black;
+    text-transform: capitalize;
+}
+
+
+.text-color{
+    word-spacing: 38px;
+    letter-spacing: 25px;
+    font-size: 50px;
+    line-height: 28px;
+    text-align:right;
+}
+
+.order-list{
+    list-style-type: square;
+}
+
+.unorder-list{
+    list-style: inside;
+    list-style-type: upper-alpha;
+}
+
+div.bg-color {
+    background-color: blueviolet;
+}
+
+div.first{
+    opacity: 0.1;
+}
+div.second{
+    opacity: 0.3;
+}
+div.third{
+    opacity: 0.6;
+}
+div.fourth{
+    opacity: 1.1;
+}
+
+.external{
+    border-style: dotted;
+    border-width: 4px;
+    border-color:black ;
+}
+
+.work{
+    margin-top: 25px;
+    margin-bottom:25px;
+    margin-right:30px;
+    margin-left:30px ;
 }
