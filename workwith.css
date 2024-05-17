@@ -1,0 +1,69 @@
+body {
+background-color: rgb(246, 27, 220);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.title{
+    font-size: large;
+    font-weight: 600;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.external{
+    text-transform:capitalize;
+}
+
+.media{
+    text-decoration: dotted;
+}
+
+.letter{
+    color: chocolate;
+}
+
+.work{
+    color: blueviolet;
+}
+
+.para{
+    color: black;
+}
+
+.color{
+  word-spacing:90px;
+  letter-spacing:40px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.order-list{
+    list-style-type:disc;
+}
+
+.order-list{
+    list-style-type: square;
+    list-style: inside;
+}
+
+div.bg-color{
+    background-color: blueviolet;
+}
+
+div.first{
+    opacity: 0.2;
+}
+
+div.second{
+    opacity:0.4;
+}
+
+div.third{
+    opacity:0.6;
+}
+
+div.fourth{
+    opacity: 1.1;
+}
