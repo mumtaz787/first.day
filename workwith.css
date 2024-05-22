@@ -1,5 +1,5 @@
-body {
-background-color: rgb(246, 27, 220);
+ body {
+background-color: rgb(246, 104, 27);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -66,4 +66,32 @@ div.third{
 
 div.fourth{
     opacity: 1.1;
+}
+
+.indigo{
+border-color: rgb(237, 59, 59);
+border-width: 15px;
+border-style: dashed;
+}
+
+.work{
+  margin-top: 45px;
+ margin-bottom: 45px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+.individual{
+    height: 280px;
+    top: 90px;
+}
+
+.different{
+    height: 160px;
+    bottom:280px;
+}
+
+.someone{
+    height: 300px;
+    right:250px;
 }
