@@ -81,9 +81,15 @@ border-style: dashed;
  margin-right: 50px;
 }
 
+.border{
+    color: black;
+    height: 600px;
+}
+
 .individual{
     height: 280px;
     top: 90px;
+    right: 150px;
 }
 
 .different{
@@ -94,4 +100,42 @@ border-style: dashed;
 .someone{
     height: 300px;
     right:250px;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap:25px 50px;
+   grid-template-columns: auto auto;
+   background-color: rgb(36, 32, 28);
+   padding: 15px;
+   margin-bottom: 20px;
+}
+
+.grid-item{
+    background-color: darkcyan;
+    border: 30px solid srgb(51, 142, 89);
+    padding: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.limited{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: chocolate;
+    padding: 20px;
+    width:50px;
+    height: 800px;
+}
+
+.flex-item{
+    background-color: blue;
+    border: 2px solid rgb(119, 15, 101);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
 }

@@ -1,0 +1,44 @@
+.psu-test::first-letter {
+    color: #f32121;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+.test-media {
+    font-size: 100px;
+}
+
+
+@media only screen and (max-width:600px){
+    .psu-test::first-letter {
+        color: #000;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    .psu-test::first-letter {
+        color: blueviolet;
+    }
+}
+
+
+/* 
+@media only screen and (max-width: 600px) {
+    .test-media {
+        font-size: 50px;
+    }
+
+    .psu-test::first-letter {
+        color: blue;
+        font-size: 100px;
+        text-transform: capitalize;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .psu-test::first-letter {
+        color: green;
+        font-size: 100px;
+        text-transform: capitalize;
+    }
+} */
