@@ -139,3 +139,49 @@ border-style: dashed;
     text-align: center;
     margin: 30px;
 }
+
+.psu-test::first-letter{
+    color: chartreuse;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+.test-media{
+    font-size: 100px;
+}
+
+@media only screen and (max-width:600px) {
+    .test-media{
+    font-size: 100px;
+}
+.psu-test::first-letter{
+    color: deeppink;
+    font-size: 200px;
+    text-transform: capitalize;
+}
+}
+
+
+@media only screen and (min-width:600px) {
+    .psu-test::first-letter{
+        color: darkblue;
+        font-size: 300px;
+        text-transform: capitalize;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .psu-test::first-letter{
+     color: coral;
+     font-size: 500px;
+     text-transform: capitalize;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .psu-test::first-letter{
+    color: gold;
+    font-size: 200px;
+    text-transform: capitalize;
+    }
+}
